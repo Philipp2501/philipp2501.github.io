@@ -1624,10 +1624,14 @@
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		/*background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);*/
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #000000 15%, #000000 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #000000 15%, #000000 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #000000 15%, #000000 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #000000 15%, #000000 85%);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2362,6 +2366,10 @@
 
 		.icon.style5 {
 			color: #8cc9f0;
+		}
+
+		.icon.style6 {
+			color: #249bff;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -3562,10 +3570,14 @@
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			/*background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);*/
+			background-image: -moz-linear-gradient(90deg, #636363, #636363);
+			background-image: -webkit-linear-gradient(90deg, #636363, #636363);
+			background-image: -ms-linear-gradient(90deg, #636363, #636363);
+			background-image: linear-gradient(90deg, #636363, #636363);
 		}
 
 		#main table tbody tr {
